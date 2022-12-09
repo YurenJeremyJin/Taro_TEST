@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { BrowserRouter, Route, Routes, } from 'react-router-dom';
 import './App.css'
-import HomePage from "./src/pages/HomePage";
-import Header from "./src/pages/Header";
-import Login from "./src/pages/Login";
-import Recipes from "./src/pages/Recipes";
+import HomePage from "./pages/HomePage";
+import Header from "./pages/Header";
+import Login from "./pages/Login";
+import Recipes from "./pages/Recipes";
  
 class App extends Component {
   

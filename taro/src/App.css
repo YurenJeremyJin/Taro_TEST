@@ -120,7 +120,7 @@ header {
   position: relative;
   width: 30%;
   flex-basis: 45%;
-  background-image: url("./src/pages/pics/TaroBottle_Black.PNG");
+  background-image: url("./pages/pics/TaroBottle_Black.PNG");
   background-position: center;
   background-size: cover;
   flex-direction: row;
