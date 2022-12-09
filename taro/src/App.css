@@ -15,7 +15,7 @@ header {
 }
 
 .inner {
-  padding-left: 72%;
+  padding-left: 63%;
 }
 
 .inner button {
@@ -37,11 +37,11 @@ header {
   transition: 0.5s;
 }
 
-#login {
+#login, #home {
   background-color: azure;
 }
 
-#login_text {
+#login_text, #home_text {
   color: #000;
   text-decoration: none;
   font-weight: 800;
@@ -63,7 +63,7 @@ header {
   color: #000;
 }
 
-#recipes_text:hover {
+#recipes_text:hover,#home_text:hover {
   cursor: pointer;
   color: #FF9900;
 }
