@@ -14,7 +14,7 @@ class App extends Component {
         <div>
         <Header/>
         <Routes>
-          <Route path="/Taro_TEXT" element={<HomePage/>} exact/>
+          <Route path="/Taro_TEST" element={<HomePage/>} exact/>
           <Route path="/Login" element={<Login/>} exact/>
           <Route path="/Recipes" element={<Recipes/>} exact/>
         </Routes>
