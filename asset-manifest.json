@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Taro_TEST/static/css/main.087315ab.css",
-    "main.js": "/Taro_TEST/static/js/main.42de6c4c.js",
+    "main.js": "/Taro_TEST/static/js/main.13835b9c.js",
     "static/js/787.07731570.chunk.js": "/Taro_TEST/static/js/787.07731570.chunk.js",
     "static/media/TaroBottle_Black.PNG": "/Taro_TEST/static/media/TaroBottle_Black.ccc9d5bed13ae7020480.PNG",
     "static/media/San_francisco.png": "/Taro_TEST/static/media/San_francisco.850ed51f7ae56a9f5619.png",
@@ -11,11 +11,11 @@
     "static/media/Taro.png": "/Taro_TEST/static/media/Taro.d18b7e42dd0e2db7f80a.png",
     "index.html": "/Taro_TEST/index.html",
     "main.087315ab.css.map": "/Taro_TEST/static/css/main.087315ab.css.map",
-    "main.42de6c4c.js.map": "/Taro_TEST/static/js/main.42de6c4c.js.map",
+    "main.13835b9c.js.map": "/Taro_TEST/static/js/main.13835b9c.js.map",
     "787.07731570.chunk.js.map": "/Taro_TEST/static/js/787.07731570.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.087315ab.css",
-    "static/js/main.42de6c4c.js"
+    "static/js/main.13835b9c.js"
   ]
 }
