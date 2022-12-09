@@ -1,0 +1,341 @@
+* {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+ }
+
+header {
+  position:fixed;
+  background-color: rgb(27, 21, 21);
+  padding: 2%;
+  width: 100%;
+  opacity:90%;
+  z-index:5;
+}
+
+.inner {
+  padding-left: 72%;
+}
+
+.inner button {
+ font-family: 'Baloo 2', cursive;
+ position: relative;
+ background-color: #983b79;
+ border: 1px solid #000;
+ justify-content: center;
+ align-items: center;
+ width: 10vw;
+ height: 3vw;
+ border-radius: 15px;
+ border: 0px;
+ font-size: 1.5vw;
+ transition-duration: 0.5s;
+}
+
+.inner button::after {
+  transition: 0.5s;
+}
+
+#login {
+  background-color: azure;
+}
+
+#login_text {
+  color: #000;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+#login_text:hover {
+  cursor: pointer;
+  color: #983b79;
+}
+
+#signup_text , #recipes_text {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+#signup_text:hover {
+  cursor: pointer;
+  color: #000;
+}
+
+#recipes_text:hover {
+  cursor: pointer;
+  color: #FF9900;
+}
+
+.homepage {
+  background-color: #000;
+  position: relative;
+  margin: 0px;
+  width: 100%;
+}
+
+.homepage #logo {
+  position: relative;
+  width:70%;
+  height: 70%;
+  padding-left: 30%;
+  padding-top: 10%;
+}
+
+.homepage h2 {
+  color: azure;
+  position: relative;
+  font-family: 'Mansalva', cursive;
+  text-align: center;
+  font-size: 3.5vw;
+}
+
+.bottlepage{
+  background-color: #000;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 5%;
+  padding-left: 15%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+  font-family: 'Mansalva', cursive;
+  font-weight: 600;
+  display: flex;
+}
+
+#leftbox {
+  color: azure;
+  font-size: 3.5vw;
+  position: relative;
+  width: 25%;
+  height: 100%; 
+  margin-top: 43%;
+}
+
+#middlebox_container {
+  position: relative;
+  width: 30%;
+  flex-basis: 45%;
+  background-image: url("./src/pages/pics/TaroBottle_Black.PNG");
+  background-position: center;
+  background-size: cover;
+  flex-direction: row;
+  padding-top: 10%;
+}
+
+#middlebox_text {
+  font-size: 4vw;
+  height: 100%;
+  display: flex;
+  flex-basis: 70%;
+  margin-top: 45%;
+  padding-top: 50%;
+  padding-bottom: 50%;
+  padding-left: 25%;
+}
+
+
+#rightbox {
+  color: azure;
+  font-size: 3.2vw;
+  position: relative;
+  width: 25%;
+  height: 100%;
+  margin-top: 42%;
+  margin-left: 5%;
+}
+
+.intropage {
+  width: 100%;
+  height: 100%;
+  color: azure;
+  background-color: #000;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: 'Mansalva', cursive;
+  font-size: 3.5vw;
+  line-height: 300%;
+  display: flex;
+}
+
+#intro_head {
+  color: #f90;
+  padding-left: 31%;
+  padding-right: 20%;
+}
+
+.intro_details {  
+  font-family: 'Baloo 2', cursive;
+  font-size: 2vw;
+  padding-left: 30%;
+  padding-right: 20%
+}
+
+.newsnblogs {
+  width: 100%;
+  height: 100%;
+  color: azure;
+  background-color: #000;
+  align-items: center;
+  font-family: 'Mansalva', cursive;
+  font-size: 3.5vw;
+  padding-top: 10%;
+  padding-left: 8%;
+  display: flex;
+}
+
+#news_link {
+  font-family: 'Baloo 2', cursive;
+  font-size: 1.5vw;
+}
+
+.links {
+  width: 100%;
+  height: 100%;
+  color: azure;
+  background-color: #000;
+  align-items: center;
+  font-family: 'Mansalva', cursive;
+  font-size: 3.5vw;
+  padding-top: 10%;
+  padding-bottom: 15%;
+  padding-left: 8%;
+  display: flex;
+}
+
+#news-1, #news-2 {
+  padding-top: 5%;
+  width: 40vw;
+  height: 50vh;
+}
+
+#news-2{
+  padding-left: 5%;
+
+}
+
+
+#stores, #mystery_box {
+  font-family: 'Baloo 2', cursive;
+  font-size: 1.5vw;
+}
+
+.store_locations {
+  width: 100%;
+  height: 100%;
+  color: azure;
+  background-color: #000;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: 'Mansalva', cursive;
+  font-size: 3.5vw;
+  display: flex;
+  padding-right: 10%;
+}
+
+.container {
+  position: relative;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text h3 {
+  font-family: 'Mansalva', cursive;
+  font-size: 1.5vw;
+
+}
+
+.text {
+  font-family: 'Baloo 2', cursive;
+  color: white;
+  font-size: 1.2vw;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+
+
+
+hr {
+  font-weight: 400;
+  color:azure;
+}
+
+.footer {
+  background-color: #000;
+  color: azure;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  font-family: 'Baloo 2', cursive;
+  font-size: 1.5vw;
+  font-weight: 100;
+  padding-right: 10%;
+  display: flex;
+}
+
+.footer #logo {
+  position: relative;
+  width: 10%;
+  height: 10%;
+  margin-top: 5%;
+  margin-bottom: 7%;
+  margin-left: 6%;
+}
+
+.footer_container {
+  padding-top: 7%;
+  padding-left: 53%;
+}
+
+form {
+  font-family: 'Mansalva', cursive;
+  font-size: 1.5vw;
+  padding-top: 20%;
+  padding-left: 40%;
+  padding-right: 30%;
+}
+
+input {
+  width: 20vw;
+  height: 4vh;
+}
+
+#login_btn {
+ position: relative;
+ background-color: #fff;
+ border: 1px solid #000;
+ justify-content: center;
+ width: 20vw;
+ height: 3vw;
+ border-radius: 15px;
+ font-size: 1vw;
+ transition-duration: 0.5s;
+}
