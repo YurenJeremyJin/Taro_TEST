@@ -7,7 +7,7 @@ function Header() {
     <header className="header">
      <div className="header_content">
        <div className="inner">
-                <NavLink to="/">Home</NavLink>
+                <NavLink to="/Taro_TEST">Home</NavLink>
          &ensp; <span>
                   <button type="button" id="login">
                     <NavLink to="/Login" id="login_text">To Log in</NavLink>
